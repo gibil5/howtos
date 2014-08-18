@@ -67,4 +67,5 @@ git branch -d modify-README
 # Push 
 git push 
 
-
+# Remove
+git rm fname
