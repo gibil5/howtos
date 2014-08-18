@@ -1,9 +1,6 @@
 
-# Howto - Git
-# ---------------
-# Created on: 		5 june 2014
-# Last modified:	id. 
 
+# jr@nausicaa: 18 august 2014 
 
 
 # Adding
@@ -15,33 +12,32 @@ git status
 git commit -m "Initial commit"
 git log
 
-
-# Work
-git add . 
-git commit -m "..."
-
-
-# Remote add 
-Login and add manually. 
+# Remote adding 
 git remote add origin https://github.com/gibil5/first_app.git
-
-# Push 
+Login and add repo manually. 
 git push -u origin master
 
 
-#jx: 13 aug 2014 
+# Working 
+git add . 
+git commit -m "..."
+git push -u origin master
+
+
+
 # Modify in machine A, get new changes in machine B
 In machine A
 git add . 
-git commit -m ""
+git commit -m "..."
 git push -u origin master 
 
 Check on git site 
 
 In machine B
+Firs time 
+git clone git://github.com/gibil5/dreams.git
+The rest 
 git pull 
-
-
 
 
 
@@ -49,8 +45,6 @@ git pull
 
 # Checkout
 git checkout -f
-
-
 
 
 # Create a Branch, for new features 
